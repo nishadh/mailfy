@@ -1,0 +1,28 @@
+<div>
+   <a ui-sref=addalert class="pull-right btn btn-primary btn-outline btn-rounded">Add New Alert</a> 
+   <h2>My Email Alerts</h2>
+   <div class=jumbotron>
+      <div class=container>
+      	  <table class="table">
+		    <thead>
+		      <tr>
+		      	<th>Title</th>
+		      	<th>Message</th>
+		        <th>Created At</th>
+		        <th>Target Date</th>
+		      </tr>
+		    </thead>
+		    <tbody ng:repeat="i in emailAlerts">
+		      <tr>
+		        <td>{{i.title}}</td>
+		        <td>{{i.message}}</td>
+		        <td>{{i.createdAt}}</td>
+		         <td>{{i.targetDate}}</td>
+		      </tr>
+		    </tbody>
+		  </table>
+	
+      
+      </div>
+   </div>
+</div>

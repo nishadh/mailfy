@@ -1,3 +1,5 @@
+mailfy.iml
+**/.DS_Store
 target/
 pom.xml.tag
 pom.xml.releaseBackup
