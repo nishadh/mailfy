@@ -54,9 +54,6 @@ public class EmailAlertServiceImpl implements EmailAlertService {
         CriteriaQuery<EmailAlert> cq = cb.createQuery(EmailAlert.class);
         Root<EmailAlert> emailRoot = cq.from(EmailAlert.class);
         Join<EmailAlert, User> userRoot = emailRoot.join("user");
-
-        //Join<EmailAlert, User> join = schoolRoot.join(School_.students);
-
         cq.where(cb.equal(userRoot.get("id"), user.getId()));
         return em.createQuery(cq).getResultList();
     }
