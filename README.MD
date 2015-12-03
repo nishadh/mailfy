@@ -1,9 +1,17 @@
 # Introduction
 Mailfy.net for OSGI Demo
 
-# Mailfy Name?
+# Meaning of the name Mailfy?
 Selfy -> Taking your own photo
 Mailfy -> Sending yourself an email
+
+# Features
+1. Developed on Felix OSGi Implementation
+2. Tested to run on Apache Karaf
+3. Uses Hibernate (JPA) and Container managed transactions
+4. Apache aries blueprint for DI using annotations
+5. Apache CXF for JAX RS Rest APIs
+6. AngularJS for front-end (Free theme from http://startangular.com/)
 
 # Install
 1. mvn clean install
