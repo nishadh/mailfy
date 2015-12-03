@@ -1,5 +1,6 @@
 # Introduction
-Mailfy.net for OSGI Demo
+Mailfy.net for OSGI Demo. Send yourself an email at your scheduled time.
+
 
 # Meaning of the name Mailfy?
 Selfy -> Taking your own photo
